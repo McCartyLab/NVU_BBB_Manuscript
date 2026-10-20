@@ -1,4 +1,7 @@
 # NVU_BBB_Manuscript
+
+***Spatially Heterogeneous Neurovascular States Define Blood-Brain Barrier Dysfunction in Gliomas and Metastatic Brain Tumors***
+
 NVU Remodeling and BBB dysfunction in Primary Gliomas and Brain Metastasis
 
 This repository contains the computational workflows and analysis scripts supporting our manuscript investigating neurovascular unit (NVU) remodeling and blood–brain barrier (BBB) dysfunction across primary gliomas and brain metastases.
@@ -20,7 +23,6 @@ This repository contains the computational workflows and analysis scripts suppor
 	- Analysis-specific macros were applied using consistent parameters across samples within each comparison and generated tabulated measurements, ROI files, and quality-control images, where applicable.
 
 Raw data and Seurat objects will be available at GEO accession GSE349917 once the manuscript is published.
-
 
 
 
