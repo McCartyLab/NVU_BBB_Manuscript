@@ -1,0 +1,6 @@
+getSelectionBounds(x, y, width, height);
+showMessage("Exact ROI coordinates",
+    "X = " + x +
+    "\nY = " + y +
+    "\nWidth = " + width +
+    "\nHeight = " + height);
