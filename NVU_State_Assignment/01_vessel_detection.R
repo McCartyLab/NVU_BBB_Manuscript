@@ -43,7 +43,7 @@ obj <- readRDS(input_file)
 
 Seurat::DefaultAssay(obj) <- "Xenium"
 
-# Exactly the FOV membership lookup used in the original preparation step.
+
 fov_rows <- lapply(names(fov_samples), function(fov) {
   if (!fov %in% names(obj@images)) {
     return(data.frame(fov = fov, sample = fov_samples[[fov]],
@@ -57,7 +57,7 @@ missing_fovs <- setdiff(names(fov_samples), names(obj@images))
 if (length(missing_fovs) > 0)
   warning("Configured FOVs missing from object: ", paste(missing_fovs, collapse = ", "))
 
-# Fill ONLY missing sample labels, in the original metadata-row order.
+# Fill ONLY missing sample labels
 cell_sample_map <- stats::setNames(fov_cells$sample, fov_cells$cell)
 
 missing_sample <- is.na(obj@meta.data[["sample"]]) |
@@ -110,7 +110,7 @@ ecpc <- FindNeighbors(ecpc, reduction = "harmony", dims = 1:20, verbose = FALSE)
 ecpc <- FindClusters(ecpc, resolution = 0.30, verbose = FALSE)
 ecpc <- RunUMAP(ecpc, reduction = "harmony", dims = 1:20, verbose = FALSE)
 
-# Restore the original full marker panel and the original pre-mapping QC figures.
+
 marker_sets <- lapply(markers, intersect, y = rownames(ecpc))
 ecpc <- UCell::AddModuleScore_UCell(ecpc, features = marker_sets)
 cluster_summary <- ecpc@meta.data %>% group_by(seurat_clusters) %>%
