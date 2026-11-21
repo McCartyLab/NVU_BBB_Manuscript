@@ -2,7 +2,7 @@
 
 NVU Remodeling and BBB dysfunction in Primary Gliomas and Brain Metastasis
 
-This repository contains the computational workflows and analysis scripts supporting our manuscript investigating neurovascular unit (NVU) remodeling and blood–brain barrier (BBB) dysfunction across primary gliomas and brain metastases.
+This repository contains the computational workflows and analysis scripts supporting the manuscript investigating neurovascular unit (NVU) remodeling and blood–brain barrier (BBB) dysfunction across primary gliomas and brain metastases.
 
 ## Repository Contents
 
@@ -25,7 +25,7 @@ Each folder contains scripts used to process specific datasets mentioned under t
 - Avastin_analysis: contains scripts to analyze perivascular endogenous IgG signal in vehicle- and Avastin-treated tumors.
 
 
-Raw data and Seurat objects will be available at GEO accession GSE349917 once the GEO processed our request to make it public.
+Raw data and Seurat objects will be available at GEO accession GSE349917 once the GEO processes request to make it public.
 
 
 
