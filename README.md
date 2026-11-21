@@ -1,6 +1,4 @@
-# NVU_BBB_Manuscript
-
-***Spatially Resolved Blood-Brain Barrier Stability States Across Gliomas and Brain Metastases***
+##Spatially Resolved Blood-Brain Barrier Stability States Across Gliomas and Brain Metastases
 
 NVU Remodeling and BBB dysfunction in Primary Gliomas and Brain Metastasis
 
