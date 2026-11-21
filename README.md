@@ -1,6 +1,6 @@
 # NVU_BBB_Manuscript
 
-***Spatially Heterogeneous Neurovascular States Define Blood-Brain Barrier Dysfunction in Gliomas and Metastatic Brain Tumors***
+***Spatially Resolved Blood-Brain Barrier Stability States Across Gliomas and Brain Metastases ***
 
 NVU Remodeling and BBB dysfunction in Primary Gliomas and Brain Metastasis
 
